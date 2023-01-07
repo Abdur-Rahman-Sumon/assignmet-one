@@ -1,197 +1,205 @@
 * {
-    margin: 0 auto;
-    font-family: 'Work Sans', sans-serif;
-  
-  }
-  /* header section css */
-  
-  .header {
-    background-image: url('../images/banner/banner2.png');
-    width: 1600px;
-    height: 809px;
-    align-items: right;
-  }
-  
-  .banner-title {
-    color: #151414;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 76px;
-    text-align: right;
-    margin-bottom: 24px;
-  }
-  
-  .banner-description {
-    color: #444343;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: right;
-    margin-bottom: 30px;
-  }
-  /* button styles */
-  .btn-second {
-    text-align: right;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #F15B22;
-  }
-  .btn-primary {
-  
-    color: #FFFFFF;
-    height: 64px;
-    background: orangered;
-    font-weight: 600;
-    font-size: 20px;
-    border: 0;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-align: right;
-  }
-  /* main section begin */
-  main {
-    margin: 0 auto;
-  }
-  
-  .section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .section-img {
-    text-align: left;
-  }
-  /* ul li styles */
-  ul li {
-    list-style: none;
-    margin-bottom: 10px;
-    font-weight: 8800;
-  }
-  
-  ul li:before {
-    content: '√';
-    font-weight: 8800;
-    color: green;
-  }
-  
-  /* My styles */
-  .my-plans {
-    margin-top: 130px;
-    text-align: center;
-    width: 1141px;
-    height: 299.96px;
-    left: 230px;
-    top: 1792.3px;
-  
-  }
-  
-  .skills-container {
-    display: flex;
-    gap: 17px;
-  }
-  
-  .skill {
-    background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
-    padding: 30px;
-  }
-  
-  .skill-title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .skill-description {
-    color: #757575;
-  }
-  
-  .section-two-banner {
-    background-image: url('../images/watch.png'); 
-    background-repeat: no-repeat;
-    width: 1140px;
-    height: 300px;
-    border-radius: 8px;
-  
-  }
-  
-  
-  
-  .section-second--title {
-    font-weight: 700;
-    font-size: 40px;
-    color: #FFFFFF;
-    margin: 59px 600px 140px 60px;
-    max-width: 450px;
-  }
-  /* second btn  */
-  .btn-second {
-    background: #FFFFFF;
-    border-radius: 5px;
-    width: 160px;
-    height: 64px;
-    border: none;
-    margin-top: 2px;
-    color: #F15B22;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-  
-  }
-  /* 2nd section styles */
-  .section-title {
-    font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 10px;
-  }
-  
-  .section-description {
-    margin-bottom: 10px;
-    color: #FFFFFF;
-  }
-  
-  .info-title {
-    margin-bottom: 10px;
-    color: #FFFFFF;
-  }
-  
-  .scb-title {
-    font-weight: 600;
-    font-size: 25px;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-  }
-   /* Social or contact section styles */
-  .contact {
-    display: flex;
-    gap: 100px;
-    background-color: #151414;
-    padding: 130px 200px;
-  }
-  
-  .contact .section-title {
-    text-align: left;
-  
-    color: #FFFFFF;
-  }
-  
-  .contact input input[type="email"] {
-    margin-top: 24px;
-    border: none;
-    width: 100%;
-    padding: 18px 30px;
-  }
-  
-  input {
-    height: 64px;
-  }
-  
-  .contact a {
-    text-decoration: none;
-  }
+  margin: 0 auto;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+/* header section css */
+
+.header {
+  background-image: url('../images/banner/banner2.png');
+  width: 1600px;
+  height: 809px;
+  align-items: right;
+}
+
+.banner-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.banner-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+/* button styles */
+.btn-second {
+  text-align: right;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #F15B22;
+}
+
+.btn-primary {
+
+  color: #FFFFFF;
+  height: 64px;
+  background: orangered;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+/* main section begin */
+main {
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-img {
+  text-align: left;
+}
+
+/* ul li styles */
+ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-weight: 8800;
+}
+
+ul li:before {
+  content: '√';
+  font-weight: 8800;
+  color: green;
+}
+
+/* My styles */
+.my-plans {
+  margin-top: 130px;
+  text-align: center;
+  width: 1141px;
+  height: 299.96px;
+  left: 230px;
+  top: 1792.3px;
+
+}
+
+.skills-container {
+  display: flex;
+  gap: 17px;
+}
+
+.skill {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skill-description {
+  color: #757575;
+}
+
+.section-two-banner {
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  border-radius: 8px;
+
+}
+
+
+
+.section-second--title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin: 59px 600px 140px 60px;
+  max-width: 450px;
+}
+
+/* second btn  */
+.btn-second {
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 160px;
+  height: 64px;
+  border: none;
+  margin-top: 2px;
+  color: #F15B22;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+}
+
+/* 2nd section styles */
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.info-title {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.scb-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+/* Social or contact section styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background-color: #151414;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+
+  color: #FFFFFF;
+}
+
+.contact input input[type="email"] {
+  margin-top: 24px;
+  border: none;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 64px;
+}
+
+.contact a {
+  text-decoration: none;
+}
