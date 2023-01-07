@@ -75,11 +75,6 @@ ul li {
   font-weight: 8800;
 }
 
-ul li:before {
-
-  font-weight: 8800;
-  color: green;
-}
 
 /* My styles */
 .my-plans {
